@@ -81,5 +81,3 @@ class SearchEngine:
         keyword = normalize_string(keyword)
         return self._index[keyword]
 
-
-engine = SearchEngine()
